@@ -15,7 +15,7 @@ function App() {
           element: <Manager/>,
         },
         {
-          path: 'about',
+          path: '/about',
           element: <About />,
         },
       ],
