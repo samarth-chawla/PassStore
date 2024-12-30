@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Redirect 404 to the index.html for SPA routing
+        const redirectTo = '/PassStore/';
+        window.location.href = redirectTo + window.location.pathname.substring(1);
+      </script>
+       
+</body>
+</html>
