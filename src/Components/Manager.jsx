@@ -43,6 +43,17 @@ const Manager = ({}) => {
                 progress: undefined,
                 theme: "light",
             });
+        }else{
+            toast.warn('🦄 Field(s) are  Empty!', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
         }
     }
 
